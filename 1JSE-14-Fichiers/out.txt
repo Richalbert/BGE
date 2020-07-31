@@ -1,0 +1,3 @@
+1ere ligne c moi qui ecrit cette ligne
+2ere ligne c moi qui ecrit cette ligne egalement
+3ieme ligne c moi qui ecrit cette ligne ci

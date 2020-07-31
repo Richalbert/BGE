@@ -1,0 +1,35 @@
+SigmaWeb 2019-TD Java
+--------------------------
+1/ Thème
+-------------
+Créer ses propres fonctions/algorithmie.
+
+2/ Todo
+-------------
+	• Demander à l'utilisateur de saisir un entier.
+	• Calculer et afficher la somme des entiers ≤ à l'entier entré.
+	• Calculer et afficher la somme des entiers multiples de 3 ≤ à l'entier entré.
+	
+3/ Résultats attendus
+-------------
+	• Le programme produit:
+		Entrer Entier: ...
+		Somme des entiers jusqu'à: ... = ...
+		Somme des multiples de trois: ... = ...
+	
+4/ Notice d'install
+-------------
+	
+5/ Autres solutions, cas dégradé
+-------------
+	• Créer une autre classe qui sera dédiée à la conception des méthodes, afin de concentrer la partie métier hors du main.
+
+6/ Bilan
+-------------
+	• Parallèlement aux méthodes natives, il est possible de développer ses propres méthodes.
+	• La factorisation permet d'optimiser le code. 
+	• il faut isoler la partie métier d'une application.
+	• le main ne fait qu'organiser le projet en plusieurs composants.
+	
+	
+	

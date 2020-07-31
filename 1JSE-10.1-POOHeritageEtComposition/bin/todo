@@ -1,0 +1,30 @@
+POO - Héritage&composition
+
+Application: 1JSE-10.1-POOHéritageEtComposition
+
+### Classes, Héritage, algo
+
+Gérer les ventes et coûts de fabrication de produits d'une boulangerie
+
+### data
+
+3 employés:
+- Violaine, Virginie : vendeuse
+- Bernard: boulanger
+
+Vendeuse et boulanger sont des employés
+
+On produit (coût de fabrication, prix de vente):
+- des baguettes (0.10, 0.78)
+- des croissants (0.15, 1.10)
+- du pain de mie (0.35, 2.50)
+
+Bernard fabrique 80 baguettes, 25 pains de mie, 60 croissants.
+Violaine vend 75 baguettes & 50 croissants .
+Virginie vend 20 pains de mie.
+
+### tracer les faits marquants (construction, héritage, ventes, fabrications, ...)
+### afficher le solde à la fin de la journée
+### faire le bilan financier
+
+### Conception:

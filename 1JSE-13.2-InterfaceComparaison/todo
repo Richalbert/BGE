@@ -1,0 +1,20 @@
+Interface-ter
+
+Classe 100% abstraite
+TD: 1JSE-13.2-InterfaceComparaison-CORR
+
+CDC:
+
+TODO:
+j'ai un tableau de 4 employés (nom, prénom, salaire) que je mets dans un tableau.
+
+Il s'agit de l'ordonner par salaire inverse et prénom?
+
+Pour cela utiliser l'itf Comparable (l'employee est un 'Comparable') et appliquer la méthode "sort" au tableau
+Modifié le: mardi 7 juillet 2020, 16:21
+Sauter Administration
+Cacher bloc Administration
+Administration
+
+    Administration du cours
+

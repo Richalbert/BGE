@@ -1,0 +1,40 @@
+SigmaWeb 2020-TD Java
+--------------------------
+1/ Thème
+-------------
+classes abstraites/implanter un test sur une classe
+
+2/ Todo
+-------------
+	• une forme géométrique peut être placée dans un plan (x,y)
+	• on doit pouvoir la déplacer en x&y
+	• on doit pouvoir afficher son périmètre (son aire, formules données en séance)
+	• traiter le cas du cercle  et du rectangle 
+	• créer 1 cercle et un rectangle et les déplacer et afficher toutes les infos depuis 
+	un tableau
+	bonus: intégrer aussi le carré (penser à le situer par rapport au rectangle...)
+	
+	• créer une série de test avec Junit qui permettent par exemple de
+	certifier que le périm d'un rectangle 4 sur 5 est bien 18...
+	
+	
+3/ Résultats attendus
+-------------
+	• la classe abstraite permet de définir le déplacement mais pas le périmètre ni l'aire qui doivent être "abstraits"
+	
+4/ Notice d'install
+-------------
+	• Junit : créer Java/test Junit, utiliser par exemple fail comme suit:
+			if (18 != new Rectangle (0,0, 4, 5).perim())
+				fail("Test 1 fails!");
+	
+5/ Autres solutions, cas dégradé
+-------------
+
+
+6/ Bilan
+-------------
+	• les classes abstraites permettent de cadrer un dev
+	• les tests de classes model sont à livrer au même titre que le logiciel
+	
+		

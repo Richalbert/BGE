@@ -1,0 +1,19 @@
+TD: 1JSE-12.2-AbstractClass
+
+Todo
+-------------
+• une forme géométrique peut être placée dans un plan (x,y)
+
+• on doit pouvoir la déplacer en x&y
+
+• on doit pouvoir afficher son périmètre (son aire, formules données en séance)
+
+• traiter le cas du cercle et du rectangle
+
+• créer 1 cercle et un rectangle (et un carré), les déplacer et afficher toutes les infos depuis
+un tableau
+
+
+(Formules Rectangle: p=2(long+larg), a=long*larg, Cercle: p=2*PI*rayon, a=PI*rayon2
+
+)

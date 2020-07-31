@@ -1,0 +1,20 @@
+SigmaWeb 2020-TD Java
+--------------------------
+1/ Thème
+-------------
+Créer ses propres classes/fonctions/algorithmie.
+
+2/ Todo
+-------------
+	• implanter l'algo du code insee (sur 15) 
+	ex: Nathalie Durand a pour code 13 : 2 69 05 49 588 157
+        le calcul donne 80
+        --> code insee total: 269054958815780
+	
+	
+3/ Algo à implanter
+-------------------
+la formule de calcul de la clé sur 2 digits est:
+C = 97 - (code13 modulo 97)
+
+attention : il faut passer par des long au lieu de int!!

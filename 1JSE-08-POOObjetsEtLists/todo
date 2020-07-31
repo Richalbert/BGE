@@ -1,0 +1,42 @@
+Classe incluant un attribut de type liste
+
+Application: 1JSE-08-POOObjetsEtListes
+
+Un pays a pour attributs: un continent, un nom, une population, des villes
+(ex:
+
+"Europe", "Espagne", 32000000, ["Madrid", "Valence", "Bilbao"]
+
+"Amérique du Nord", "US", 350000000, ["LA", "NY"]
+
+• il faut pouvoir rajouter une ville ("Saragosse" et "Séville")
+• il faut pouvoir supprimer une ville ("Valence")
+• il faut pouvoir afficher un pays
+
+Nota: 
+
+    les tableaux sont faciles à manier : [] (mais ne sont pas extensibles)
+    Il faut soit utiliser Vector, soit ArrayList pour gérer une LISTE
+    Pour ce TD -> Vector
+
+PS: utiliser "Vector":
+
+import java.util.Iterator;
+import java.util.Vector;
+
+public class ParcoursIterator {
+
+	public static void main(String[] args) {
+		Vector<String> vct = new Vector<String>();
+		//ajouter des éléments
+		vct.add("premier");
+		vct.add("deuxième");
+
+		//parcourir avec Iterator
+		Iterator<String> itr = vct.iterator();
+		while(itr.hasNext()){
+			System.out.println(itr.next());
+		}
+		}
+}
+Modifié le: mardi 30 juin 2020, 11:50

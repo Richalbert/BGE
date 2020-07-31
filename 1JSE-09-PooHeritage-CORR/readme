@@ -1,0 +1,41 @@
+SigmaWeb 2019-TD Java
+--------------------------
+1/ Thème
+-------------
+Héritage/Polymorphisme
+
+2/ Todo
+-------------
+	• une personne a un nom +  un age
+	• un salarie est une personne possédant une société
+	• 1/ vérifier qu'à la construction du Salarié, on "passe" par la personne
+	• 2/ écrire une méthode "afficher" pour les 2 classes en faisant fonctionner
+le mécanisme d'héritage
+	 •3/ placer 2 personnes et un salarié dans un tableau et réaliser l'affichage des composants
+	 
+	 4/ Bonus: traiter le cas de la personne mariée (une personne avec un conjoint) et 
+	 du manager (un salarié avec un nombre de salariés sous ses ordres).
+	 5/ Les rajouter au tableau précédent
+	
+	
+3/ Résultats attendus
+-------------
+	• Le programme produit:
+		un affichage (légèrement) différent pour le salarié
+	
+4/ Notice d'install
+-------------
+	
+5/ Autres solutions, cas dégradé
+-------------
+	• commencer à créer des packages (com.bge.model) notamment pour les objets métier
+
+6/ Bilan
+-------------
+	• le Salarié utilise les méthodes/le constructeur de la personne
+	• Il a "en plus" un champ nouveau
+	• De ce fait, la méthode Afficher est polymorphe (le compilateur va rechercher "la bonne") 
+	et l'affichage est donc différent suivant la classe
+	
+	
+	

@@ -1,0 +1,115 @@
+BGE/SigmaWeb 2020-TD Java
+------------------------------------------------------------------------------
+Eclipse regorge de "trucs et astuces" pour optimiser son code, gagner du temps, ameliorer sa productivite...
+
+* Modifier le theme de son Eclipse:
+-->Eclipse/ Preferences/ deplier General/ deplier Appearence/ color theme
+
+* Modifier l'encodage des caract�res:
+-->Window > Preferences > General > Workspace > Default (UTF-8). 
+
+* Generer les getters/ setters et les constructeurs:
+-->Source > Generer les methodes Getter et Setter.
+-->Source > Constructors using fiels. 
+
+* En laissant le curseur sur une methode, une pop-up s'affiche avec la description de ladite methode.
+
+* Double cliquer juste avant/apres une accolade ouvrante/ fermante pour que le bloc de code figurant 
+  a l'interieur soit selectionne.
+
+* Selectionner une instruction, clic droit, surround with ...(do, for, if, while, try/catch...)
+
+* Renommer toutes les memes occurences d'un projet
+-->Selection du mot > clic droit > refactor > rename
+
+* Scinder de longues chaines de caractere sur plusieurs lignes:
+--> Placer le curseur dans la chaine a l'endroit ou l'on souhaite le retour a la ligne puis appuyer sur "entrer".
+
+** LES RACCOURCIS CLAVIER LES PLUS USITES:
+
+	=> PROPRES A ECLIPSE
+		Ctrl+Espace 	Assister au contenu (dont autocompletion) 
+						ex: Syso + ctrl-Espace 
+							for + ctrl-Espace
+							A la ligne, ctr+Espace: affichage de modeles (for, foreach, while, if, switch, try/ catch, new...)
+
+		Alt+/ 			Completion du mot
+		Ctrl+Maj+Espace Informations de contexte
+		CTRL-I          Corrige l'indentation du code
+		ALT-SHIFT-W 	Affichage de l'element courant dans une vue
+		CTRL-Q 			Retour au dernier point d'edition
+		CTRL-D 			Effacement de la ligne courante
+		ALT-FLECHE 		Deplacement du bloc selectionne
+		CTRL-F8 		Changement des perspectives d'Eclipse
+		CTRL-L 			Acces a une ligne precise
+		SHIFT-ALT-R 	Renommage de l'element selectionne
+		CTRL-H 			Lancement de la recherche
+		CTRL-J 			Lancement de la recherche incrementale
+		CTRL-SHIFT-C 	Mise en commentaire d'un bloc de code
+		CTRL-SHIFT-R 	Acces rapide a une ressource
+		CTRL-SHIFT-T 	Accs rapide a un type
+		CTRL-SHIFT-1 	Affichage du menu de correction rapide ( Quick Fix )
+		CTRL-SHIFT-F 	Formatage automatique du code
+		F11 			Lancement rapide d'une classe en mode d�bogage
+		CTRL-F11 		Lancement rapide d'une classe sans d�bogage
+		CTRL-ALT-H 		Affichage de la hierarchie d'appels
+		CTRL-O 			Liste des methodes de la classe en cours
+		CTRL-SHIFT-O    Gestion de la liste des imports 	
+		CTRL-SHIFT-G 	Affichage des references d'un element
+
+
+
+	=> RACCOURCIS GENERAUX
+		Ctrl+Maj+Y 			Mettre en minuscules
+		Ctrl+Maj+X 			Mettre en majuscules
+		Alt+Maj+O 			Marquer/demarquer les occurrences
+		Ctrl+C 			 	Copier
+		Ctrl+X 			 	Couper
+		Ctrl+V 				Coller
+		Ctrl+Alt+Haut / Ctrl+Alt+Bas 	Dupliquer la ligne en cours ou des lignes selectionnees (en haut ou en bas)
+		Ctrl+D 				Effacer la ligne
+		Ctrl+Suppr 			Effacer le mot suivant
+		Ctrl+Arriere 		Effacer le mot precedent
+		Ctrl+Maj+Suppr 		Effacer jusqu'a la fin de la ligne
+		Ctrl+Maj+Entree 	Inserer une ligne au-dessus
+		Maj+Entree 			Inserer une ligne en dessous
+		Home 				Aller en debut de ligne
+		Fin 				Aller en fin de ligne
+		Alt+Bas 			Descendre de N lignes
+		Alt+Haut 			Monter de N lignes
+		Ctrl+Droite 		Aller au mot suivant
+		Ctrl+Gauche 		Aller au mot precedent
+		Ctrl+Bas 			Scroller vers le bas
+		Ctrl+Bas 			Scroller vers le haut
+		Ctrl+Home 			Aller en haut du fichier
+		Ctrl+Fin 			Aller en bas du fichier
+		Ctrl+Maj+Q 			Basculer en diff rapide
+		Ctrl+1 				Proposer une solution rapide
+		Ctrl+Z 				Defaire
+		Ctrl+Y 				Refaire
+
+		F2 					Afficher la description
+		
+		Ctrl+Maj+Insert 	Basculer en mode insertion
+		Alt+Maj+A 			Active/desactive le mode colonne
+		Alt+Maj+Bas 		Restaurer la derniere selection
+		Ctrl+A 				Selectionner tout
+		Alt+Maj+Haut 		Selectionner element englobant
+		Alt+Maj+Droite 		Selectionner l'element suivant
+		Alt+Maj+Gauche 		Selectionner l'element precedent
+		Ctrl+Maj+Droite 	Selectionner le mot suivant
+		Ctrl+Maj+Gauche 	Selectionner le mot precedent
+		Maj+Fin 			Selectionner jusqu'a la fin de la ligne
+		Maj+Home 			S�lectionner jusqu'au debut de la ligne
+		
+		Ctrl+K 				Rechercher le suivant
+		Ctrl+Maj+K 			Rechercher le precedent
+		Ctrl+F 				Rechercher/remplacer
+		Ctrl+J 				Rechercher incrementalement
+		Ctrl+Maj+J 			Rechercher anti-incrementalement (ie. inversee)
+		Ctrl+G 				Rechercher la declaration dans le � workspace �
+		Ctrl+Alt+G 			Rechercher le texte dans le " workspace "
+		Ctrl+H 				Ouvrir la boite de recherche
+		Ctrl+Maj+G 			Rechercher les references dans le " workspace "
+		Ctrl+Maj+U 			Rechercher les occurrences
+

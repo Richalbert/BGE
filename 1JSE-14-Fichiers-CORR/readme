@@ -1,0 +1,43 @@
+SigmaWeb 2020-TD Java
+--------------------------
+1/ Thème
+-------------
+Gestion fichier/exception spécialisée
+
+2/ Todo
+-------------
+     passer un paramètre au programme (tableau args du main)
+	• - si W est passé: générer un nombre de lignes aléatoires dans un fichier:
+	out.txt (entre 1 et 5)
+	(ex 3 est tiré -> Line 1
+	                  Line 2
+	                  Line 3 est le contenu du fichier généré)
+	 - si R est passé: lire out.txt
+	 - si D détruire out.txt
+	 - sinon générer une exception
+	 
+	 Tout doit passer par une exception spécialisée qui génère les sorties comme suit:
+	 <<errorType>> :: message en clair dans la console
+	 
+	 errorType prend les valeurs suivantes: READ_ERROR, WRITE_ERROR, DELETE_ERROR, MESSAGE
+	 
+	 ex: <<READ_ERROR>> :: cannot read file: out.txt
+	 
+	 
+3/ Résultats attendus
+-------------
+	• 
+	
+4/ Notice d'install
+-------------
+	- pour manipuler les fichiers, on peut utiliser: File, FileWriter, FileReader...
+5/ Autres solutions, cas dégradé
+-------------
+	- on peut aussi utiliser : 	BufferedReader		
+
+6/ Bilan
+-------------
+	• On sait passer des params à un programme
+	 On sait écrire/lire/détruire un fichier texte
+	 On sait utiliser les exceptions personnalisées
+		

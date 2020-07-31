@@ -1,0 +1,27 @@
+Classes abstraites
+******************
+
+Classes non "complètes", nécessitent une classe "fille"!
+
+
+TD: 1JSE-12.1-AbstractClass
+
+    Todo
+    -------------
+    On gère 2 catégories de véhicule:
+    
+    - CITADINE: Chaque citadine est caractérisée par une marque, un
+    nom, une autonomie et un identifiant (qui sera son
+    immatriculation)
+    
+    - FAMILIALE : Chaque familiale est caractérisée par une
+    marque, un nom, un identifiant, un nombre de
+    passagers maxi
+    
+    - Chaque véhicule doit faire l’objet d’une révision périodique SPECIFIQUE à la CATEGORIE:
+    "Message: Tous les 1000 kms pour la familiale: <nom>, les 500 pour la citadine: <nom>", .
+
+    Stocker plusieurs véhicules dans un tableau et afficher chaque véhicule ainsi que la révision!
+
+
+Modifié le: lundi 6 juillet 2020, 15:03

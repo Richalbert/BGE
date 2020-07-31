@@ -1,0 +1,26 @@
+Exception personnalisée/tests
+*****************************
+
+Application: 1JSE-11.3.2-Exception Spécifique/Tests
+
+
+- reprendre le TD 06 où un salarié se composait d'un nom et d'une société
+
+- contraintes métier du CDC:
+
+----il est impossible d'embaucher à Airbus
+
+---- de même on ne peut embaucher de Philippe à Matignon
+
+Pour cela:
+
+- soigner le codage en package (model/exception/controleur)
+
+- passer par une exception spécifique (SalarieException)
+
+- le rendu comporte la date courante
+
+- il faut faire un test de la partie métier dans les 4 cas de figures (embauche nominale Pierre à Orange, Paul à airbus, Philippe à Matignon, Castex à Matignon)
+
+Pour cela utiliser Junit (Eclipse : new Junit Test (au lieu de new class) puis 'fail' pour signifier qu'une méthode "plante")
+Modifié le: vendredi 3 juillet 2020, 14:32

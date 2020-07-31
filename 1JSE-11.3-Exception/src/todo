@@ -1,0 +1,17 @@
+Exception personnalisée
+***********************
+
+Application: 1JSE-11.3-Exception
+
+- réaliser une exception personnalisée: PrjException
+
+Cahier Des Charges (CDC):
+
+1/ traiter le cas d'une erreur surveillée (ex: FileReader) et pas surveillée (compte en banque approvisionné)
+
+2/ ces 2 cas de figure provoque la levée d'une exception personnalisée (PrjException)
+
+3/ le rendu doit être inscrit dans une popup (et dans la console)
+
+
+Modifié le: vendredi 3 juillet 2020, 11:51

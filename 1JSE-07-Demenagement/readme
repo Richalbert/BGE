@@ -1,0 +1,17 @@
+Plusieurs classes imbriquées
+****************************
+
+- classes imbriquées
+
+Application: 1JSE-07-POO-Model2Classes
+**************************************
+
+- une personne=prénom+age+adresse
+- une adresse=numéro+rue+code postal+ville
+
+1/ Déclarer 2 personnes à deux adresses différentes (Paul&Virginie)
+2/ Faire déménager Virginie chez Paul
+
+3/ Rajouter le pays à l'adresse -> on remarque qu'il y a peu d'impact dans la personne (découplage de classes)
+
+Modifié le: lundi 29 juin 2020, 15:52

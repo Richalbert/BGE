@@ -1,0 +1,35 @@
+SigmaWeb 2019-TD Java
+--------------------------
+
+1/ Thème:
+----------------
+Communiquer avec l'utilisateur via la console.
+
+2/ Todo:
+----------------
+	• Demander à l'utilisateur ses prénom, nom et âge.
+	• Afficher dans la console "Hello <prenom> <nom>, vous avez <age> ans." .
+	
+3/ Résultats attendus
+----------------
+	• Le programme produit:
+		Entrez votre prénom:
+		aaa
+		Entrez votre nom:
+		bbb
+		Entrez votre age:
+		ccc
+		Hello aaa bbb, vous avez ccc ans.
+		
+4/ Notice d'install
+----------------
+	• Importer la classe Scanner du package java.util;
+
+	
+5/ Autres solutions
+----------------
+	• Utilisation d'interfaces graphiques (ex: swing, javaFX) plutôt que de la console.
+
+6/ Bilan
+----------------
+	• Il est possible de communiquer avec son application, via des entrées/sorties clavier dans la console.

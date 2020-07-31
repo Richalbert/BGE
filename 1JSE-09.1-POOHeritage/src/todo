@@ -1,0 +1,18 @@
+POO - Héritage-autre exemple
+
+Principe essentiel de la POO ; mot-clé: extends
+
+But : se servir des propriétés/méthodes d'une classe Mère et éventuellement surcharger (
+
+
+Application: 1JSE-09.1-POOHéritage
+
+un véhicule c'est une marque, un modèle, une plaque d'immatriculation (identification):
+
+(ex: "Toyota", "Corrola", "FS-456-EW")
+
+un véhicule familial comporte en plus un nombre de places assises.
+
+un véhicule de sport comporte en plus une vitesse de pointe.
+
+Implanter le modèle, prendre des exemples et afficher un véhicule de chaque catégorie.

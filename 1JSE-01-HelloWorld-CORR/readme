@@ -1,0 +1,63 @@
+SigmaWeb 2020-TD Java
+------------------------------------------------------------------------------
+
+1/ Thème
+--------------------------
+1er projet JSE : console et javadoc.
+
+2/ Todo
+--------------------------
+	• Afficher un message dans la console et générer la Javadoc.
+
+3/ Résultats attendus
+--------------------------
+	• "Hello world" s'affiche dans la console.
+ 	
+ 	
+4/ Notice d'install Javadoc
+--------------------------
+	• On appelle Javadoc l'outil qui génère la documentation du logiciel.
+				
+	• L'outil Javadoc ne prend pas en compte les commentaires du code s'ils sont déclarés ainsi :
+			// commentaire sur une ligne
+			/* commentaire sur
+			plusieurs lignes */
+		
+		 Par contre :
+			/**
+			* Ceci est
+			* un commentaire
+			*Javadoc.
+			*/
+		Il doit être écrit sur la ligne immédiatement au-dessus du nom de la classe, de la méthode, ou de la variable concernée.
+		
+			
+	• Les tags :
+		En saisissant juste le 1er caractère "@" Eclipse propose la liste des tags disponibles.                            
+		Il existe traditionnellement 9 principaux tags permettant de détailler des informations:
+		@see : est un des tags les plus usités : il renvoie à  une autre classe/ méthode via un lien hypertexte.
+		@param : (obligatoire si la méthode contient des paramètres) renseigne le ou les paramètre(s) de la méthode (le type est inclus automatiquement).
+		@return : (obligatoire si la méthode contient des paramètres) renseigne l'objet retourné.
+		@throws : indique la présence d'une exception dont il faut préciser le type et la raison.
+		@author et @version : renseignent le ou les auteur(s) et le numéro de version d'une classe ou d'une interface (et non d'une méthode).
+		@since : indique depuis quelle version de la classe existe une méthode, un paramètre.
+		@deprecated : renseigne d'une part depuis quelle version la classe ou la méthode est dépréciée et d'autre part la classe ou méthode alternative à  utiliser.
+		@serial : ce tag ne sera pas présenté ici car ne fait pas l'unanimité.
+			
+
+5/ Autres solutions, cas dégradés
+--------------------------
+	
+	• Il est possible d'exporter la Javadoc sous d'autres formats grâce aux doclets.
+
+	
+6/ Bilan
+--------------------------
+	
+	• Même s'il semble fastidieux de rédiger des commentaires simples et commentaires Javadoc, au final c'est un véritable gain de temps pour comprendre rapidement le fonctionnement et la logique des classes/ méthodes...	
+	• Pour aller plus loin sur la Javadoc:
+		- en français :
+		 https://openclassrooms.com/fr/courses/1115306-presentation-de-la-Javadoc
+		 https://jmdoudoux.developpez.com/cours/developpons/java/chap-Javadoc.php
+		- en anglais :
+		 https://www.oracle.com/technetwork/java/javase/documentation/writingdoccomments-137785.html

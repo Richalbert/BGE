@@ -1,0 +1,34 @@
+SigmaWeb 2019-TD Java
+--------------------------
+1/ Thème
+-------------
+Remontée d'exception
+
+2/ Todo
+-------------
+	• demander à l'utilisateur via Scanner un age
+	• deporter le traitement de l'age dans une méthode (et non dans le main)
+	• faire remonter l'erreur
+	
+3/ Résultats attendus
+-------------
+	• Le programme est bien géré : si on rentre un age valide on 
+	continue sinon on arrête proprement
+	
+4/ Notice d'install
+-------------
+	
+5/ Autres solutions, cas dégradé
+-------------
+	• faire un traitement applicatif et 
+	gérer par exemple une exception applicative (un age est inférieur à 120 par exemple)
+	
+
+6/ Bilan
+-------------
+	• on sait faire remonter une erreur de n'importe quel endroit (throw + throws)
+	• on la traite à un seul endroit (le main?)
+	
+	
+	
+	

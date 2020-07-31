@@ -1,0 +1,12 @@
+// 2 classes imbriquées
+// intérêt VI statiques
+//
+
+CDC 
+- une personne=nom+prénom+age+adresse
+- une adresse=numéro+rue+code postal+ville
+(coder en anglais)
+1/ déclarer 2 personnes à deux adresses différentes (Paul&Virginie) 
+2/ Virginie trouve Paul à son goût, la faire déménager chez lui!
+3/ Bonus: déclaration une population de plusieurs personnes avec plusieurs adresses.
+Compter à un instant donné toutes les personnes

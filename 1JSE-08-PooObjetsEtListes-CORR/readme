@@ -1,0 +1,57 @@
+SigmaWeb 2020-TD Java
+--------------------------
+1/ Thème
+-------------
+Traitement liste/POO
+
+2/ Todo
+-------------
+	• une pays comporte: un continent, un nom, une population, des villes
+	(ex: "Europe", "Espagne", 32000000, ["Madrid", "Valence", "Bilbao"]
+	• il faut pouvoir rajouter une ville ("Saragosse" et "Séville")
+	• il faut pouvoir supprimer une ville ("Valence")
+	• il faut pouvoir afficher un pays
+	
+	
+3/ Résultats attendus
+-------------
+	• Le programme produit:
+		"Europe", "Espagne", 32000000, ["Madrid", "Bilbao", "Saragosse", "Séville"])
+	
+4/ Notice d'install
+-------------
+	
+5/ Autres solutions, cas dégradé
+-------------
+	• commencer à créer des packages (com.bge.model) notamment pour les objets métier
+	• la ville peut être une classe "complexe" et non une String, mais à priori peu de choses changent
+	• parcourir un vector en java:
+	
+import java.util.Iterator;
+import java.util.Vector;
+
+public class ParcoursIterator {
+
+    public static void main(String[] args) {
+        Vector<String> vct = new Vector<String>();
+        //ajouter des éléments
+        vct.add("premier");
+        vct.add("deuxième");
+        
+        //parcourir avec Iterator
+        Iterator<String> itr = vct.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
+    }
+}
+
+
+6/ Bilan
+-------------
+	• la liste n'est pas figée, le tableau ne peut être utilisé
+	• il faut utiliser soit Vector soit ArrayList
+	
+	
+	
+	

@@ -1,0 +1,20 @@
+Interface
+
+- Classe 100% abstraite -> dans Eclipse: new Interface
+
+- seulement des déclarations de méthodes : des exigences
+
+- notion de contrat
+
+- bonne pratique: en général se termine par able: Iterable, Comparable, ...
+
+TD: 1JSE-13-Interface-CORR
+
+CDC:
+Pour moi, une personne futile est une personne:
+- qui fait du sport
+- qui se divertit
+
+Pouvez-vous implanter ce modèle pour un Homme et une Femme en
+trouvant des exemples de votre choix convaincants tout en restant mesurés...
+Modifié le: mardi 7 juillet 2020, 14:35

@@ -1,0 +1,51 @@
+Exception personnalisée/Enumération/properties
+**********************************************
+
+Application: 1JSE-11.3.3-Exception-Enum-Properties
+
+1/ Thème
+-------------
+Exception spécifique à développer + 
+chargement d'un fichier de propriétés +
+utiliser une énumération en Java
+
+2/ Todo
+-------------
+- 3 cas d'exception : FATAL/ERROR/WARNING on utilise donc une énumération Java
+- à des fins d'internationalisation les messages/erreurs sont
+dans un fichier de propriétés
+
+3/ Résultats attendus
+-------------
+- l'embauche à Airbus lève une Erreur, celle au CNES un warning
+- l'absence du fichier de propriété lève un FATAL (et le programme s'arrête), l'absence d'une clé une erreur
+- à chaque erreur générée, un message console s'affiche avec la date courante, le type d'erreur (donc 3 cas),
+le message (issu donc du fichier de propriété)
+- dans les autres cas (tout ok donc) un message de félicitations s'affiche
+
+4/ Notice d'install
+-------------
+1/ - déclarer une énumération: "new Enumération" dans Eclipse
+(ex: class Langage {
+PHP,
+JAVA,
+C)}. Pour y référer: Langage.JAVA par exemple
+
+2/ - utilisation d'un fichier de propriété situé à la racine du projet
+(ex:
+properties = new Properties();
+FileInputStream input= new FileInputStream(fName);
+... properties.load(input);
+... pour récupérer une clé: properties.getProperty(key))
+Penser à utiliser des méthodes statiques qui encapsulent ces traitements car ce fichier ne doit être lu qu'une fois
+
+
+3/ Autres solutions, cas dégradés
+-------------
+
+4/ Bilan
+-------------
+- on sait déclarer une classe d'exception spécialisée
+- on sait manipuler les Enum
+- on sait utiliser un fichier de properties (on peut utiliser ResourceBundle aussi)
+Modifié le: lundi 6 juillet 2020, 09:36

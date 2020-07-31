@@ -1,0 +1,30 @@
+POO - Héritage
+
+Principe essentiel de la POO ; mot-clé: extends
+
+But : se servir des propriétés/méthodes d'une classe Mère 
+	  et éventuellement surcharger (polymorphisme) 
+	  et rajouter d'autres méthodes et/ou attributs.
+
+Si on peut utiliser le mot-clé "est un", alors on peut penser aux concepts d'héritage!
+
+(ex: un Félin est un animal (qui mange de la viande))
+
+Application: 1JSE-09-POOHéritage
+
+une personne a un nom + un age
+un salarie est une personne possédant une société
+
+1/ vérifier qu'à la construction du Salarié, on "passe" par la personne
+
+2/ créer un constructeur de salarie plus adapté (avec nom, age, société)
+
+2.1/ que permet de faire le "super"?
+3/ écrire une méthode "afficher" pour les 2 classes en faisant fonctionner
+le mécanisme d'héritage
+3/ placer 2 personnes et un salarié dans un tableau et réaliser l'affichage des composants
+
+4/ Bonus: traiter le cas de la personne mariée (une personne avec un conjoint) et
+du manager (un salarié avec un nombre de salariés sous ses ordres).
+5/ Les rajouter au tableau précédent et appeler la méthode afficher également
+Modifié le: mardi 30 juin 2020, 15:47

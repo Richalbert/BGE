@@ -1,0 +1,19 @@
+Traitement d'exceptions
+
+Application: 1JSE-11-Exception
+
+
+-1/ traitement exception simple sur erreur division par 0
+
+-2/ idem avec dépassement tableau
+
+-3/ les traiter "proprement" avec un try/catch
+
+-4/erreur non surveillée: par exemple un age doit être compris entre 1 et 110
+
+-5/ erreur surveillée: accès fichier avec la classe File et FileReader par exemple
+
+-6/ traiter donc les 2 cas avec try/catch
+
+
+Modifié le: jeudi 2 juillet 2020, 15:58
