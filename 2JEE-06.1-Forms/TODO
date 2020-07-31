@@ -1,0 +1,35 @@
+Réalisation de formulaires simples (suite)
+
+2JEE-06.1-Forms
+
+CDC : 
+---------------------------------------
+
+Il existe une page d'index statique (index.html) qui propose:
+
+- un lien sur : Convertir:
+
+- un lien sur: Voir la valeur courante
+
+1/ Convertir -> affichage d'un formulaire de conversion Euro/Dollar (1€=1.14 USD) avec de haut en bas:
+
+- un titre
+
+- en vert encadré une zone de résultat (ou en rouge une erreur levée par le calcul le cas échéant: pour ce cahier des charges une erreur est levée si le montant est trop élevé, > 1000)
+
+- un radio Bouton (E->D ou D->E)
+
+- une zone de texte où on rentre une somme (int)
+
+- un lien sur l'index
+
+2/ Voir la valeur courante:
+
+- il s'agit d'afficher le dernier montant obtenu
+
+- un lien sur l'index
+
+3/ la navigation doit être complète et une css doit être élaborée
+
+4/ ne pas oublier non plus de définir un modèle (en premier lieu), une exception spécialisée
+Modifié le: mardi 21 juillet 2020, 09:06

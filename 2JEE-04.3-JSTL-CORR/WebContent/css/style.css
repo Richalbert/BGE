@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+	color: lightblue;
+	background-color: black;
+	text-align: center;
+}
+
+table, tr, th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+tr {
+	background-color: lightyellow;
+}
+.even {
+	background-color: lightgreen;
+}
+.odd {
+	background-color: lightblue;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+}

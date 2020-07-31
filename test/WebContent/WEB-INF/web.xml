@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+	version="4.0">
+	
+	<servlet>
+		<servlet-name>Test</servlet-name>
+		<servlet-class>fr.richard.servlets.Test</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/bonjour</url-pattern>
+	</servlet-mapping>
+
+
+	
+	<servlet>
+		<servlet-name>Acceuil</servlet-name>
+		<servlet-class>fr.richard.servlets.Acceuil</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Acceuil</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
+
+<!-- 
+	quand le visiteur va sur l url /bonjour
+	il sera redirige vers la servlet Tes
+	qui elle possede la methode doGet() pour recupere une page
+ -->

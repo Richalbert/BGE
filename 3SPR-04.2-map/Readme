@@ -1,0 +1,47 @@
+1 - File / New / Maven Project
+    **************************
+
+	create a simple project
+	Group ID: fr.richard.map
+	Artifact ID: 3SPR-04.2-map
+	
+	Finish
+	
+2 - Copier la dependance a spring dans le fichier pom.xml entre les balises <project> </project>
+    ********************************************************************************************
+    
+	<dependencies>	
+
+		<!-- appel à Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.2.8.RELEASE</version>
+		</dependency>
+		
+	</dependencies>
+	
+3 - construire les beans metiers (le modele)
+    ****************************************
+    New class
+    
+    	package : fr.richard.map.beansmodel
+    	name :	Annuaire
+
+	creer constructeur, getter et setter
+	
+	
+4 - le Main: ajouter
+    ****************
+
+	ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext(
+				new String[] {"applicationContext.xml"});
+				
+				
+5 - Creer le fichier applicationContext.xml
+    ***************************************
+    
+    
+    
+
+https://www.javatpoint.com/spring-tutorial-constructor-injection-with-map

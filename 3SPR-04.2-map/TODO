@@ -1,0 +1,40 @@
+Application Spring Maven avec Liste et Annuaire
+3SPR-04-ListEtMap
+
+1/ Thème
+-------------------
+Spring+Maven+injection dans une liste et un annuaire
+
+2/ Todo
+-------------
+A/Listes:
+
+- créer une classe métier prenant en paramètre une liste,(ex: sport: tennis, joueurs: Nadal, Federer, ...)
+- injecter depuis le XML
+- afficher le résultat
+
+B/Annuaires:
+
+- faire de même avec un annuaire (générer lien nom-téléphone, ex: dupont->0645672341, durant->0456781234, ...)
+
+3/ Résultats attendus
+-------------
+- Le contenu du fichier XML est affiché
+
+6/ Bilan
+-------------
+Liste: exemple d'injection par constructeur:
+
+<constructor-arg>
+<list>
+<value>Messi</value>
+<value>Neymar</value>
+<value>Ronaldo</value>
+</list>
+</constructor-arg>
+
+Annuaire:
+
+<map>
+<entry key="Java " value="Good language"></entry>
+Modifié le: mercredi 29 juillet 2020, 12:06

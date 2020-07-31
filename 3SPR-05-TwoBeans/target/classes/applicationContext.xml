@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- 
+		 injection par setter 
+		 generer les getter et setter et un constructeur vide 
+	-->
+	<bean id="address1" class="fr.richard.twobeans.beanmodel.Address">
+		<property name="town" value="Marseille"></property>
+		<property name="country" value="France"></property>
+	</bean>
+	
+	<bean id="address2" class="fr.richard.twobeans.beanmodel.Address">
+		<property name="town" value="Toulon"></property>
+		<property name="country" value="France"></property>
+	</bean>
+	
+	
+	<bean id="employee1" class="fr.richard.twobeans.beanmodel.Employee">
+		<property name="name" value="Bond"></property>
+		<property name="age" value="55"></property>
+		<property name="address" ref="address1"></property>
+	</bean>
+	
+	<bean id="employee2" class="fr.richard.twobeans.beanmodel.Employee">
+		<property name="name" value="James"></property>
+		<property name="age" value="66"></property>
+		<property name="address" ref="address2"></property>
+	</bean>
+
+
+	<bean id="address3" class="fr.richard.twobeans.beanmodel.Address">
+		<constructor-arg value="Toulouse"></constructor-arg>
+		<constructor-arg value="France"></constructor-arg>
+	</bean>
+
+	<bean id="createNewEmp2" class="fr.richard.twobeans.beanmodel.Employee">
+		<constructor-arg  value="Foo"></constructor-arg>
+		<constructor-arg  value="44"></constructor-arg>
+		<constructor-arg  ref="address3"></constructor-arg>
+	</bean>
+
+
+</beans>

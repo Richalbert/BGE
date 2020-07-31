@@ -1,0 +1,14 @@
+h2{
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+}
+
+
+label, form {
+	display: inline-block;
+	/*width: 400px;*/
+	text-align: left;
+}

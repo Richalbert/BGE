@@ -1,0 +1,77 @@
+1ères applications SPRING
+
+3SPR-02-First
+
+
+1/ Thème
+-------------------
+1ère utilisation de Spring: lecture d'un fichier XML qui fait office de programme de test
+
+2/ Todo
+-------------
+- via XML affecter une propriété à un objet, constater le résultat
+
+3/ Résultats attendus
+-------------
+- l'affichage Java permet de constater que cela est effectif
+
+4/ Notice d'install
+-------------
+- il faut installer spring (bean, context, core, expression) et logging dans le classpath
+
+5/ Autres solutions, cas dégradé
+-------------
+- multiplier les déclarations de bean
+
+6/ Bilan
+-------------
+
+- on se consacre au développement du bean
+- via XML on peut tester cet objet métier (injection par setter depuis un fichier XML: applicationContext.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- déf du bean: classe Java associée, saisie d'une propriété -->
+<bean id="studentbean" class="com.phdareys.Student">
+<property name="name" value="Bond"></property>
+</bean>
+
+</beans>
+
+3SPR-03-MAVEN
+
+1/ Thème
+-------------------
+Spring+Maven
+
+2/ Todo
+-------------
+- faire les bons imports dans le fichier POM
+
+3/ Résultats attendus
+-------------
+- l'affichage Java permet de constater que cela est effectif
+- on peut faire également de l'injection par constructor (au lieu des setters)
+
+4/ Notice d'install
+-------------
+- il faut installer configurer le fichier pom.xml avec la dépendance à Spring
+
+5/ Autres solutions, cas dégradés
+-------------
+- multiplier les déclarations de bean
+
+6/ Bilan
+-------------
+on n'a pas à faire les modification du classpath avec toutes les librairies Spring, Maven s'en charge
+Modifié le: mercredi 10 juin 2020, 15:50
+Sauter Administration
+Cacher bloc Administration
+Administration
+
+    Administration du cours
+

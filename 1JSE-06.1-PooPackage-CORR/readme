@@ -1,0 +1,9 @@
+### POO/MVC/Packages
+###
+-> déclarer une personne (nom, prénom, société, age, salaire mensuel)
+
+-> construire des personnes depuis le programme principal et calculer le coût annuel pour l'employeur (salaire annuel+90% charges) 
+
+-> construire un tableau d'employés
+
+-> placer les composants dans les bons packages (conseil: model, view, app)

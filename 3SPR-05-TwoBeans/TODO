@@ -1,0 +1,56 @@
+Application Spring Maven avec plusieurs Classes métier
+
+3SPR-05-BeanS
+
+1/ Thème
+-------------------
+Spring+Maven+2 beans sont utilisés (une classe appelle l'autre)
+
+2/ Todo
+-------------
+- créer une classe métier Employee (name, age, address) avec un lien sur une autre classe :
+Address (town, country)
+
+- modéliser le process (créer des employés et des adresses via le XML)
+
+- afficher le résultat
+
+3/ Résultats attendus
+-------------
+- tout est paramétré depuis le XML
+
+4/ Notice d'install
+-------------
+
+5/ Autres solutions, cas dégradé
+-------------
+- déclarer d'autres beans
+
+6/ Bilan
+-------------
+
+Plusieurs possibilités:
+
+<!-- 1/ référence sur l'adresse précédente! -->
+
+<constructor-arg><ref bean="a1"/></constructor-arg>
+
+<!-- 2/ on peut aussi imbriquer les beans -->
+
+<bean id="e1" class="com.phdareys.Employee">
+<constructor-arg value="3" type="int"></constructor-arg>
+<constructor-arg value="Dupont" type="String"></constructor-arg>
+<constructor-arg>
+<bean class="com.phdareys.Address">
+
+...
+
+<!-- 3/ .. ou travailler par properties (inj. par setter/getter) -->
+
+Modifié le: mercredi 22 juillet 2020, 14:52
+Sauter Administration
+Cacher bloc Administration
+Administration
+
+    Administration du cours
+

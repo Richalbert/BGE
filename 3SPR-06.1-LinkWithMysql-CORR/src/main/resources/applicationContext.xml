@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- Initialization for data source -->
+   <bean id="dataSource" 
+      class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
+      <property name = "driverClassName" value = "com.mysql.cj.jdbc.Driver"/>
+      				<!--  connection+user+mdp -->
+      <property name = "url" value = "jdbc:mysql://localhost:3308/bge?serverTimezone=UTC"/>
+      <property name = "username" value = "root"/>
+      <property name = "password" value = ""/>
+   </bean>
+
+   <!-- Definition for CourseJDBCTemplate bean -->
+   <bean id = "courseJDBCTemplate" 
+      class = "com.phdareys.dao.CourseJDBCTemplate">
+      		<!--  injection datasource dans la classe -->
+      <property name = "dataSource" ref = "dataSource" />    
+   </bean>
+   <!-- Definition for MealJDBCTemplate bean -->
+   <bean id = "mealJDBCTemplate" 
+      class = "com.phdareys.dao.MealJDBCTemplate">
+      		<!--  injection datasource dans la classe -->
+      <property name = "dataSource" ref = "dataSource" />    
+   </bean>
+   
+		<!-- bean à insérer -->
+   <bean id = "beanToInsert" class = "com.phdareys.bean.Course">
+      <property name = "libelle" value = "kiwi" />    
+      <property name = "quantite" value = "32" />    
+   </bean>
+
+		<!-- bean à deleter -->
+   <bean id = "beanToDelete" class = "com.phdareys.bean.Course">
+      <property name = "id" value = "4" />    
+   </bean>
+
+</beans>
