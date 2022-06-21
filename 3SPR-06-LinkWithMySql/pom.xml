@@ -6,7 +6,7 @@
   	
   	<properties>
 		<spring.version>5.2.8.RELEASE</spring.version>
-		<mysqlcon.version>8.0.21</mysqlcon.version>
+		<mysqlcon.version>8.0.28</mysqlcon.version>
 	</properties>
 	
 	<dependencies>
